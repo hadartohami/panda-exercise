@@ -7,7 +7,7 @@ Tested on Python3
 ```
 git clone https://github.com/bigpandaio/ops-exercise.git
 
-mv docker-compose ./ops-exercise
+mv docker-compose.yml ./ops-exercise
 ```
 
 
