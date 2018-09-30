@@ -1,17 +1,22 @@
 # panda-exercise
-
-big panda - devops exercise
+BigPanda - DevOps Exercise
 
 Tested on Python3
 
-Instructions
+### Instructions Before Deployment
 
+'''
 git clone https://github.com/bigpandaio/ops-exercise.git
+
 mv docker-compose ./ops-exercise
+'''
 
-To Start Deployment
 
+### Start Deployment
+
+'''
 python3 deployment.py
+'''
 
 
 
