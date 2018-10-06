@@ -3,7 +3,11 @@ import os
 import healthcheck
 import subprocess
 import time
+import logging
 from config import EXERCISE_DIR_PATH
+
+# configure log file
+logging.basicConfig(filename='deploy.log', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 
 # download tar file and extract in ./public/images
 openpics.download_pics()
